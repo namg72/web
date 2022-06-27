@@ -1,0 +1,45 @@
+     * {
+         margin: 0;
+         font-family: arial;
+     }
+     
+     .portada_logo {
+         width: 30%;
+     }
+     
+     .menu {
+         text-align: center;
+     }
+     
+     nav ul {
+         width: 80%;
+         overflow: hidden;
+         /* que se adapte a lo que contiene */
+         margin: auto;
+         list-style: none;
+         margin: auto;
+     }
+     
+     .menu li {
+         width: 18%;
+         display: inline-block;
+         /* solucion cutre*/
+     }
+     
+     .menu li a {
+         display: block;
+         color: white;
+         background-color: #1f4b81;
+         text-decoration: none;
+     }
+     /* .change {
+     color: #1f4b81;
+     background-color: white;
+ }
+ */
+     
+     .footer {
+         margin-top: 20px;
+         height: 200px;
+         background-color: rgba(128, 128, 128, 0.187);
+     }
