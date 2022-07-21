@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dionisio Gacía</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+
+            <div class="menu">
+                <img class="portada_logo" src="/imagenes/logo.png " alt=" ">
+        </header>
+        <nav>
+            <ul id="menu" class="menu">
+                <li id="id"><a href="#">Historia</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="formulario">
+
+            <p>Formulario de Contacto:</p>
+
+            <p>Rellena el siguiente formulario para contactar con nosotros. Nos pondremos en contacto contigo lo antes posible. Gracias. </p>
+            <form class="form">
+
+                <label for="labelNombre">Nombre *</label>
+                <input type="text" name="nombre" required>
+                <label for="labelApellido">Apellidos *</label>
+                <input type="text" name="apellidos" required>
+                <label for="lableMail">Mail *</label>
+                <input type="email" name="email" required>
+                <label for="lableTelefono">Telefono</label>
+                <input type="number" name="telefono">
+                <label for="labelasunto">Asunto</label>
+                <input type="text" name="asunto">
+                <label for="labelMensaje">Tu mensaje *</label>
+                <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+
+                <aside>
+
+                    <p id="aceptarForm" class="aceptarForm">Debes aceptar el acuerdo para enviar el formulario</p>
+                    <input type="checkbox" id="checkForm" name="permisoFormulario ">
+                    <p>
+                        De acuerdo con lo establecido por la Ley Orgánica 15/1999 de 13 de diciembre, de Protección de Datos de Carácter Personal, doy mi consentimiento/consiento para que estos datos sean incluidos en un fichero automatizado del que es titular Dionisio Garcia,
+                        S.L., y puedan ser utilizados para la gestión fiscal, contable y administrativa de la relación contractual, así como el envío de información comercial sobre nuestros productos y servicios, y declaro estar informado sobre los derechos
+                        de acceso, rectificación, cancelación y oposición que podré ejercitar en el domicilio social de Dionisio Garcia, S.L. CALLE DEL AJO PORRO, 9, MADRID 28O69 (Madrid). Para continuar debe Vd. Aceptar que ha leído y esta conforme con
+                        esta cláusula
+                    </p>
+                </aside>
+            </form>
+            <button type="submit " id="enviar" class="enviar" disabled ">Enivar Formulario</button>
+
+        </div>
+
+        </div>
+        <footer>
+            <div class="footer "></div>
+        </footer>
+
+
+
+    </div>
+
+    <script src="/js/script.js "></script>
+    <script src="/js/formulario.js "></script>
+    <script src="/js/enlaces.js "></script>
+
+</body>
+
+</html>

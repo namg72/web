@@ -1,9 +1,9 @@
 let imagenes = new Array;
 
-imagenes.push("../imagenes/images-1.jpeg");
-imagenes.push("../imagenes/images-2.jpeg");
-imagenes.push("../imagenes/images-3.jpeg");
-imagenes.push("../imagenes/images-4.jpeg");
+imagenes.push("/imagenes/images-1.jpeg");
+imagenes.push("/imagenes/images-2.jpeg");
+imagenes.push("/imagenes/images-3.jpeg");
+imagenes.push("/imagenes/images-4.jpeg");
 
 let cont = 0;
 let fin = imagenes.length;
@@ -35,3 +35,5 @@ document.getElementById("left_Arrow").addEventListener("click", () => {
 
 
 });
+
+//Estilos formulario
