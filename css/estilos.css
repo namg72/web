@@ -1,71 +1,89 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.portada_logo {
-    width: 30%;
-}
-
-.menu {
-    text-align: center;
-}
-
-nav ul {
-    width: 80%;
-    overflow: hidden;
-    /* que se adapte a lo que contiene */
-    margin: auto;
-    list-style: none;
-    margin: auto;
-}
-
-.menu li {
-    width: 15%;
-    padding: 10px;
-    display: inline-block;
-    /* solucion cutre*/
-}
-
-.menu li a {
-    display: block;
-    color: white;
-    background-color: #1f4b81;
-    text-decoration: none;
-}
-
-.menu li a:hover {
-    background-color: white;
-    color: #1f4b81;
-}
-
-.footer {
-    margin-top: 20px;
-    height: 300px;
-    background-color: #333;
-}
-
-.tarjetas {
-    width: 75%;
-    margin: auto;
-    display: grid;
-    padding: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    border: 1px, solid, blue;
-}
-
-.tarjetas>div {
-    margin-top: 50px;
-    height: 500px;
-    text-align: center;
-    background-color: #dcdcdc;
-}
-
-.cardsImg {
-    object-fit: cover;
-    width: 100%;
-    height: 45%;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+        }
+        
+        .portada_logo {
+            width: 30%;
+        }
+        
+        .menu {
+            text-align: center;
+        }
+        
+        nav ul {
+            width: 80%;
+            overflow: hidden;
+            /* que se adapte a lo que contiene */
+            margin: auto;
+            list-style: none;
+            margin: auto;
+        }
+        
+        .menu li {
+            width: 15%;
+            padding: 10px;
+            display: inline-block;
+            /* solucion cutre*/
+        }
+        
+        .menu li a {
+            display: block;
+            color: white;
+            background-color: #1f4b81;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            background-color: white;
+            color: #1f4b81;
+        }
+        
+        footer {
+            height: 200px;
+            background-color: #333;
+            color: white;
+        }
+        
+        footer .datos {
+            width: 300px;
+            padding-top: 30px;
+            padding-left: 80px;
+            font-size: 20px;
+        }
+        
+        footer a {
+            color: white;
+        }
+        
+        .tarjetas {
+            width: 75%;
+            margin: auto;
+            display: grid;
+            padding: 50px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+        }
+        
+        .tarjetas>div {
+            margin-top: 50px;
+            height: 500px;
+            text-align: center;
+            background-color: rgba(242, 237, 237, 0.5);
+            box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+            border-radius: 7px 7px 7px 7px;
+        }
+        
+        .cardsImg {
+            object-fit: cover;
+            width: 100%;
+            height: 45%;
+        }
+        
+        .tarjetas>div:hover {
+            margin-top: -0.2px;
+            margin-left: 1px;
+            box-shadow: 7px 7px 9px -1px rgba(0, 0, 0, 0.65);
+        }

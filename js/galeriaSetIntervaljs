@@ -24,5 +24,5 @@ function cambiarfoto() {
 
 }
 
-
+//llamamos al metodo cambira foto cada 4 segundos
 setInterval(cambiarfoto, 4000);
