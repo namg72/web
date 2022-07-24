@@ -18,7 +18,10 @@
     height: 100%;
 }
 
-.fa-angle-right {
+
+/* Codigo para pasar la galeria manualmente 
+
+ .fa-angle-right {
     display: inline-block;
     position: relative;
     left: 100%;
@@ -36,4 +39,4 @@
     top: -200px;
     color: red;
     cursor: pointer;
-}
+} */

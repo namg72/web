@@ -32,6 +32,13 @@
         width: 300px;
     }
     
+    form button {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 15px;
+    }
+    
     .aceptarForm {
         color: red;
         font-weight: bold;
@@ -45,10 +52,21 @@
     #checkForm {
         float: left;
         width: 13px;
+        margin-right: 5px;
     }
     
     aside {
         font-style: italic;
         font-size: small;
         margin-bottom: 20px;
+    }
+    
+    .mapas {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        margin-top: -620px;
+        margin-left: 450px;
+        padding: 15px;
+        text-align: center;
     }
