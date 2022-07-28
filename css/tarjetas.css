@@ -6,6 +6,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 15px;
         grid-row-gap: 15px;
+        justify-items: center;
     }
     
     .tarjetas>div {
