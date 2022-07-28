@@ -38,6 +38,28 @@
                 .menu li a:hover {
                     background-color: white;
                     color: #1f4b81;
+                    transition: all 0.2s ease;
+                }
+                /* video-consejos */
+                
+                .videos {
+                    width: 80%;
+                    background-color: #F2F3F4;
+                    margin: auto;
+                    padding: 30px;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 1fr 2fr 1fr;
+                    grid-column-gap: 20px;
+                    grid-row-gap: 15px;
+                }
+                
+                .videos div {
+                    height: 150px;
+                    text-align: center;
+                    padding: 10px;
+                    background-color: white;
+                    margin-top: 50px;
                 }
                 
                 footer {
@@ -49,7 +71,7 @@
                 footer .datos {
                     float: left;
                     width: 300px;
-                    padding-top: 30px;
+                    padding-top: 40px;
                     padding-left: 80px;
                     font-size: 20px;
                     margin-right: 50px;
@@ -64,4 +86,26 @@
                     width: 200px;
                     display: inline-block;
                     padding: 15px;
+                }
+                
+                .texto {
+                    width: 80%;
+                    text-align: justify;
+                    margin: auto;
+                }
+                
+                .texto p {
+                    margin: 30px 100px 20px 100px;
+                    line-height: 2;
+                }
+                
+                .texto>div {
+                    width: auto;
+                    text-align: center;
+                }
+                
+                .texto img {
+                    margin-top: 30px;
+                    width: 70%;
+                    height: 70%;
                 }
