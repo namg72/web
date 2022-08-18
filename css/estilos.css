@@ -4,8 +4,19 @@
     font-family: Arial;
 }
 
-.portada_logo {
+.logo {
+    text-align: center;
+}
+
+.logo img {
     width: 30%;
+}
+
+header p {
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 40px;
+    color: #333;
 }
 
 .menu {
@@ -14,8 +25,6 @@
 
 nav ul {
     width: 80%;
-    overflow: hidden;
-    /* que se adapte a lo que contiene */
     margin: auto;
     list-style: none;
     margin: auto;
@@ -25,6 +34,7 @@ nav ul {
     width: 15%;
     padding: 10px;
     display: inline-block;
+    text-align: center;
     /* solucion cutre*/
 }
 
