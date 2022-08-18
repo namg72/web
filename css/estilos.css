@@ -1,138 +1,207 @@
-                * {
-                    margin: 0;
-                    padding: 0;
-                    font-family: Arial;
-                }
-                
-                .portada_logo {
-                    width: 30%;
-                }
-                
-                .menu {
-                    text-align: center;
-                }
-                
-                nav ul {
-                    width: 80%;
-                    overflow: hidden;
-                    /* que se adapte a lo que contiene */
-                    margin: auto;
-                    list-style: none;
-                    margin: auto;
-                }
-                
-                .menu li {
-                    width: 15%;
-                    padding: 10px;
-                    display: inline-block;
-                    /* solucion cutre*/
-                }
-                
-                .menu li a {
-                    display: block;
-                    color: white;
-                    background-color: #1f4b81;
-                    text-decoration: none;
-                }
-                
-                .menu li a:hover {
-                    background-color: white;
-                    color: #1f4b81;
-                    transition: all 0.2s ease;
-                }
-                /* footer*/
-                
-                footer {
-                    height: 210px;
-                    background-color: #333;
-                    color: white;
-                }
-                
-                footer .datos {
-                    float: left;
-                    width: 300px;
-                    padding-top: 40px;
-                    padding-left: 80px;
-                    font-size: 20px;
-                    margin-right: 50px;
-                    margin-top: 0;
-                }
-                
-                footer a {
-                    color: white;
-                }
-                /* video-consejos */
-                
-                .videos {
-                    width: 80%;
-                    margin: auto;
-                    padding: 30px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr 1fr 1fr;
-                    grid-column-gap: 20px;
-                    grid-row-gap: 15px;
-                    justify-items: center;
-                }
-                
-                .videos div {
-                    height: 300px;
-                    width: 80%;
-                    padding: 10px;
-                    margin-top: 50px;
-                    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
-                    border-radius: 7px 7px 7px 7px;
-                }
-                
-                .videos video {
-                    object-fit: cover;
-                    width: 100%;
-                    height: 50%;
-                    margin-bottom: 20px;
-                }
-                
-                .videos p {
-                    width: 90%;
-                    margin-left: 7px;
-                    height: 55px;
-                    border-bottom: 2px solid darkblue;
-                    display: block;
-                    font-size: large;
-                    color: darkblue;
-                    font-weight: bold;
-                }
-                
-                .maps {
-                    width: 200px;
-                    display: inline-block;
-                    padding: 15px;
-                }
-                /* Texto pagina Quienes S0mos*/
-                
-                .texto {
-                    width: 80%;
-                    text-align: justify;
-                    margin: auto;
-                }
-                
-                .texto p {
-                    margin: 30px 100px 20px 100px;
-                    line-height: 2;
-                }
-                
-                .texto>div {
-                    width: auto;
-                    text-align: center;
-                }
-                
-                .texto img {
-                    margin-top: 30px;
-                    width: 70%;
-                    height: 70%;
-                }
-                
-                .productos {
-                    width: 80%;
-                    height: 800px;
-                    margin: auto;
-                    background-color: lightgrey;
-                }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.portada_logo {
+    width: 30%;
+}
+
+.menu {
+    text-align: center;
+}
+
+nav ul {
+    width: 80%;
+    overflow: hidden;
+    /* que se adapte a lo que contiene */
+    margin: auto;
+    list-style: none;
+    margin: auto;
+}
+
+.menu li {
+    width: 15%;
+    padding: 10px;
+    display: inline-block;
+    /* solucion cutre*/
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    background-color: #1f4b81;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: #1f4b81;
+    transition: all 0.2s ease;
+}
+
+
+/* footer*/
+
+.footer--flex_container {
+    height: 150px;
+    background-color: #333;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer--flex_container div {
+    color: #fff;
+    font-size: 2 rem;
+    width: 30%;
+    height: 80%;
+    margin: 5%;
+}
+
+.footer--flex_container div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social {
+    text-align: center;
+}
+
+.social p {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 50px;
+}
+
+.sello img {
+    object-fit: cover;
+    height: 100%;
+    margin-right: 0px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 10%;
+}
+
+
+/* video-consejos */
+
+.videos {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+    justify-items: center;
+}
+
+.videos div {
+    height: 300px;
+    width: 80%;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 7px 7px 7px 7px;
+    transition: all 0.3s ease;
+}
+
+.videos div:hover {
+    margin-left: 1px;
+    box-shadow: 10px 10px 9px -2px rgba(0, 0, 0, 0.65);
+}
+
+.videos video {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.videos p {
+    width: 90%;
+    margin-left: 7px;
+    height: 55px;
+    border-bottom: 2px solid darkblue;
+    display: block;
+    font-size: large;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.maps {
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+/* Texto pagina Quienes S0mos*/
+
+.texto {
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.texto p {
+    margin: 30px 100px 20px 100px;
+    line-height: 2;
+}
+
+.texto>div {
+    width: auto;
+    text-align: center;
+}
+
+.texto img {
+    margin-top: 30px;
+    width: 70%;
+    height: 70%;
+}
+
+.productos {
+    width: 80%;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    padding: 50px;
+    border-radius: 10px 50px 10px 50px;
+}
+
+.productos h1 {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.catalogo {
+    width: 200px;
+    margin-top: 30px;
+    background-color: rgb(144, 140, 140);
+    padding: 30px;
+    border-radius: 5px 50px 5px 50px;
+    text-align: center;
+}
+
+.listaProductos {
+    list-style: none;
+    margin: auto;
+}
+
+.listaProductos select {
+    width: 90%;
+    height: 2rem;
+    margin-bottom: 15px;
+}

@@ -1,6 +1,7 @@
 let chekeado = document.getElementById("checkForm");
 let aviso = document.getElementById("aceptarForm");
-let enviar = document.getElementById("enviar");
+let enviar = document.getElementById("enviar_Form");
+
 
 chekeado.addEventListener("click", () => {
 
@@ -16,3 +17,4 @@ chekeado.addEventListener("click", () => {
 
     }
 });
+

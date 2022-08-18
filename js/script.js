@@ -8,3 +8,4 @@ tarjetaLavanderia.addEventListener("click", () => window.location.href = "/html/
 
 let tarjetaCelulosa = document.getElementById("tarjetaLimpieza");
 tarjetaCelulosa.addEventListener("click", () => window.location.href = "/html/limpieza.html");
+
