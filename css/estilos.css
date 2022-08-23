@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial;
+    color: rgb(103, 98, 98);
 }
 
 .logo {
@@ -21,6 +22,7 @@ header p {
 
 .menu {
     text-align: center;
+    
 }
 
 nav ul {
@@ -35,20 +37,27 @@ nav ul {
     padding: 10px;
     display: inline-block;
     text-align: center;
-    /* solucion cutre*/
 }
 
 .menu li a {
     display: block;
     color: white;
-    background-color: #1f4b81;
+    background-color: #626567;
     text-decoration: none;
 }
 
 .menu li a:hover {
     background-color: white;
-    color: #1f4b81;
+    color: #626567;
     transition: all 0.2s ease;
+}
+
+.prod {
+    width: 81%;
+    margin: auto;
+    padding: 30px;
+    padding-left: 0%;
+    border-bottom: 2px solid darkgray;
 }
 
 
@@ -56,7 +65,7 @@ nav ul {
 
 .footer--flex_container {
     height: 150px;
-    background-color: #333;
+    background-color: #F2F3F4;
     display: flex;
     align-content: center;
     align-items: center;
@@ -64,7 +73,6 @@ nav ul {
 }
 
 .footer--flex_container div {
-    color: #fff;
     font-size: 2 rem;
     width: 30%;
     height: 80%;
@@ -73,7 +81,6 @@ nav ul {
 
 .footer--flex_container div a {
     text-decoration: none;
-    color: #fff;
 }
 
 .social {
@@ -135,10 +142,10 @@ nav ul {
     width: 90%;
     margin-left: 7px;
     height: 55px;
-    border-bottom: 2px solid darkblue;
+    border-bottom: 2px solid darkgray;
     display: block;
     font-size: large;
-    color: darkblue;
+    color: #333;
     font-weight: bold;
 }
 

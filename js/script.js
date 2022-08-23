@@ -2,7 +2,7 @@
 
  let fechaActual = () => {
          let date = new Date;
-         const days = ["Domingo", "Lunes", "Marte", "Miercoles", "Jueves", "Viernes", "Sabado"]
+         const days = ["Domingo", "Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado"]
          const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
          let day = days[date.getDay()];
          let month = months[date.getMonth()]
@@ -11,6 +11,11 @@
      }
      //Insetamos la fecha en el header
  let fecha = document.querySelector("header > p").textContent = fechaActual();
+
+
+
+
+
 
 
  //Enlaces Tarjetas index

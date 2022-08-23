@@ -16,9 +16,9 @@
 <body>
     <div class="contenedor">
         <header>
-
+            <p>fecha actual</p>
             <div class="menu">
-                <img class="portada_logo" src="/imagenes/logo.png " alt=" ">
+                <img class="portada_logo" src="/imagenes/logo.png " alt="foto logo" alt="logo Dionisio García">
         </header>
         <nav>
             <ul id="menu" class="menu">
@@ -36,20 +36,20 @@
             <p>Formulario de Contacto:</p>
 
             <p>Rellena el siguiente formulario para contactar con nosotros. Nos pondremos en contacto contigo lo antes posible. Gracias. </p>
-            <form id="form_contacto" class="form">
+            <form id="form" class="form">
 
                 <label for="labelNombre">Nombre *</label>
-                <input type="text" name="nombre" required>
-                <label for="labelApellido">Apellidos *</label>
-                <input type="text" name="apellidos" required>
+                <input type="text" name="nombre" id="form--name" required>
+                <label for="labelApellidos">Apellidos *</label>
+                <input type="text" name="apellidos" id="form--surname" required>
                 <label for="lableMail">Mail *</label>
-                <input type="email" name="email" required>
+                <input type="email" name="email" id="form--email" required>
                 <label for="lableTelefono">Telefono</label>
-                <input type="number" name="telefono">
+                <input type="number" name="telefono" id="form--phone">
                 <label for="labelasunto">Asunto</label>
-                <input type="text" name="asunto">
+                <input type="text" name="asunto" id="form--affair">
                 <label for="labelMensaje">Tu mensaje *</label>
-                <textarea name="Mensaje" id="" cols="30" rows="10" required></textarea>
+                <textarea name="Mensaje" id="form--message" cols="30" rows="10" required></textarea>
 
                 <aside>
 
@@ -62,14 +62,15 @@
                         esta cláusula
                     </p>
                 </aside>
-                <button type="submit " id="enviar_Form" class="enviar" disabled>Send</button>
+                <button type="submit" id="enviar_Form" class="enviar" disabled>Send</button>
+
+
+                <!-- <div class="mapas">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.7499066823334!2d-3.7600530846068465!3d40.325707679375846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a1c0fcfdc7b%3A0x61c2b4174a8f7dc1!2sC.%20Ac%2FDc%2C%2028914%20Legan%C3%A9s%2C%20Madrid!5e0!3m2!1ses!2ses!4v1658661323224!5m2!1ses!2ses"
+                        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div> -->
             </form>
-
-            <div class="mapas">
-
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.7499066823334!2d-3.7600530846068465!3d40.325707679375846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a1c0fcfdc7b%3A0x61c2b4174a8f7dc1!2sC.%20Ac%2FDc%2C%2028914%20Legan%C3%A9s%2C%20Madrid!5e0!3m2!1ses!2ses!4v1658661323224!5m2!1ses!2ses"
-                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
         </div>
 
         </div>
@@ -111,7 +112,7 @@
 
     <script src="/js/script.js "></script>
     <script src="/js/formulario.js "></script>
-    <script src="/js/enlaces.js "></script>
+    <script src="/js/validate.js "></script>
 
 </body>
 
