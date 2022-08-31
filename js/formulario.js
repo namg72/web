@@ -124,4 +124,5 @@ formulario.addEventListener(("submit"), (e) => {
     e.preventDefault();
     validateForm()
     console.log("pulsado boton")
+    document.getElementById("enviar_Form").className = "button-active"
 })

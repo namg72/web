@@ -10,7 +10,7 @@
     
     .tarjetas>div {
         width: 90%;
-        height: 440px;
+        height: 500px;
         box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.75);
         border-radius: 10px;
         transition: all 0.3s ease;

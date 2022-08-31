@@ -13,10 +13,7 @@
  let fecha = document.querySelector("header > p").textContent = fechaActual();
 
 
-
-
-
-
+ /* PAGINA HOME */
 
  //Enlaces Tarjetas index
 
@@ -28,3 +25,18 @@
 
  let tarjetaCelulosa = document.getElementById("tarjetaLimpieza");
  tarjetaCelulosa.addEventListener("click", () => window.location.href = "/html/limpieza.html");
+
+
+ /* PAGINA PINTURAS */
+
+ //Modificamos el h2 con el contendio del imput de Pinturas
+ const pinturas = document.getElementById("pinturas_agua")
+
+ pinturas.addEventListener("change", () => {
+
+     let texto = pinturas.options[pinturas.selectedIndex].textContent
+
+     document.querySelector(".productos h2").textContent = texto
+
+ })
+

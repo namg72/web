@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dionisio Gacía</title>
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/formulario.css">
     <!-- enlace fontaweson -->
@@ -25,7 +26,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li id="id"><a href="historia.html">Historia</a></li>
                 <li><a href="#">Productos</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
 
             </ul>
@@ -35,7 +36,8 @@
 
         <div class="productos">
             <section>
-                <h1 id="titulo">Pinturas</h1>
+                <h1>Pinturas</h1>
+                <h2></h2>
             </section>
 
             <div class="catalogo">
@@ -43,22 +45,27 @@
 
                 <ul class="listaProductos">
                     <article>
-                        <li><select id="select_P_Agua">  
-               <option value="pinturasAgua">Pinturas al agua</option>
-                <option value="pinturaPlasticaMate">Plástico mate</option>
-                <option value="pinturaPlasticaSatinada">Plástico Satinado</option>
-                <option value="revestimiento">Revestimientos</option>
-                <option value="EsmalteAgua">Esmalte Acrilico</option>
-                <Barnices value="barnizAgua">Barnices al agua</option>
+                        <li>
+                            <label for="Pinturas al agua">Pinturas al agua</label>
+
+                            <select id="pinturas_agua"> 
+                                <option value=""></option>
+                             <option value="pinturaPlasticaMate">Plástico mate</option>
+                             <option value="pinturaPlasticaSatinada">Plástico Satinado</option>
+                            <option value="revestimiento">Revestimientos</option>
+                            <option value="EsmalteAgua">Esmalte Acrilico</option>
+                            <option value="barnizAgua">Barnices al agua</option>
                 </select></li>
 
                     </article>
 
                     <article>
-                        <li><select id="select_P_Disol">
-                            <option value="pinturaStcas">Pinturas al disolvente</option>
-                            <option value="esmalteStco">Esmalte Sintetico</option>
-                            <option value="barnizStco">Barnices Sinteticos</option>
+                        <li>
+                            <label for="Pinturas al disolvente">Pinturas al disolvente</label>
+                            <select>
+                                <option value=""></option>
+                                <option value="esmalteStco">Esmalte Sintetico</option>
+                                <option value="barnizStco">Barnices Sinteticos</option>
                             </select>
                             </select>
                         </li>
@@ -67,40 +74,48 @@
 
 
                     <article>
-                        <li><select id="select_P_Esp">  
-                <option value="pinturasEspeciales">Pinturas Especilaes</option>
-                <option value="imprimaciones">imprimaciones</option>
-                <option value="pistasDeportivas">Pintura pistas deportivas</option>
-                <option value="impermeabilizante">Impermeabilizante</option>
-                <option value="parking">Pintura Parking</option>
-                <option value="epoxy">Epoxy</option>
-                </select></li>
+                        <li>
+                            <label for="pinturasEspeciales">pinturas Especialese</label>
+                            <select>  
+                                <option value=""></option>
+                                <option value="imprimaciones">imprimaciones</option>
+                                <option value="pistasDeportivas">Pintura pistas deportivas</option>
+                                <option value="impermeabilizante">Impermeabilizante</option>
+                                <option value="parking">Pintura Parking</option>
+                                <option value="epoxy">Epoxy</option>
+                             </select>
+                        </li>
                     </article>
 
 
 
                     <article>
-                        <li><select id="select_P_Pinceles">  
-                <option value="pinceles">Pinceles y rodillos </option>
-                <option value="paletinas">paletinas</option>
-                <option value="pincelredondo">Pinceles redondos</option>
-                <option value="pincelplano">Pincel Plano</option>
-                <option value="brocaha">Brocha recortar</option>
-                <option value="rodillos">Rodillos</option>
-                <option value="Bigoteras">Bigoreras</option>
-                </select></li>
+                        <li>
+                            <label for="Pinceles y rodillos">Pinceles y rodillos</label>
+                            <select>  
+                                <option value=""></option>
+                                <option value="paletinas ">paletinas</option>
+                                <option value="pincelredondo ">Pinceles redondos</option>
+                                <option value="pincelplano ">Pincel Plano</option>
+                                <option value="brocaha ">Brocha recortar</option>
+                                <option value="rodillos ">Rodillos</option>
+                                <option value="Bigoteras ">Bigoreras</option>
+                         </select>
+                        </li>
 
                     </article>
 
                     <article>
 
                         <li>
-                            <selec id="select_P_Mas" t>
-                                <option value="masillas">Masillas </option>
-                                <option value="plastePolvo">Plaste Polvo</option>
-                                <option value="plasteUso">Plaste al uso</option>
-                                <option value="varios">Varios</option>
-                            </selec>
+                            <label for="Masillas">Masillas</label>
+                            <select>
+
+                                <option value=""></option>
+                                <option value="plastePolvo ">Plaste Polvo</option>
+                                <option value="plasteUso ">Plaste al uso</option>
+                                <option value="varios ">Varios</option>
+                            </select>
                         </li>
 
                     </article>
@@ -109,23 +124,30 @@
 
                     <article>
 
-                        <li><select id="select_P_Utiles">  
-                <option value="utiles">Utiles </option>
-                <option value="cintas">Cintas</option>
-                <option value="cubetas">cubetas</option>
-                <option value="alargos">alargos</option>
-                <option value="herramientas">herramientas</option>
-                </select></li>
+                        <li>
+                            <label for="Utiles">Utiles</label>
+                            <select id="select_P_Utiles ">  
+                                <option value=""></option>
+                                <option value="cintas ">Cintas</option>
+                                <option value="cubetas ">cubetas</option>
+                                <option value="alargos ">alargos</option>
+                                <option value="herramientas ">herramientas</option>
+                              </select>
+                        </li>
 
                     </article>
 
                     <article>
-                        <li><select id="select_P_Adh">  
-                <option value="adhesivos">Adhesivsos </option>
-                <option value="colaAgua">Cola al agua</option>
-                <option value="colaContacto">Cola de Contacto</option>
-                <option value="Siliconas">Siliconas</option>
-                </select></li>
+                        <li>
+                            <label for="Pinceles y rodillos">Pinceles y rodillos</label>
+                            <select id="select_P_Adh ">  
+                                <option value=""></option>
+                                <option value="adhesivos ">Adhesivsos </option>
+                                <option value="colaAgua ">Cola al agua</option>
+                                <option value="colaContacto ">Cola de Contacto</option>
+                                <option value="Siliconas ">Siliconas</option>
+                            </select>
+                        </li>
 
 
                     </article>
@@ -141,21 +163,22 @@
 
         <footer>
 
-            <div class="footer--flex_container">
-                <div class="datos">
+            <div class="footer--flex_container ">
+                <div class="datos ">
                     <p>Dionisio Garcia, SL</p>
                     <p>Calle AC/DC 69</p>
                     <p>28914 Leganes</p>
                     <p>Madrid</p>
                     <p>913 456 334</p>
-                    <a href="mailto:dionisoGarcia@mimail.com">dionisoGarcia@mimail.com</a>
+                    <a href="mailto:dionisoGarcia@mimail.com ">dionisoGarcia@mimail.com</a>
                 </div>
 
-                <div class="social">
-                    <p id="comparte">Comparte:</p>
+                <div class="social ">
+                    <p id="comparte ">Comparte:</p>
 
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://dionisiogarcia.com" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" ></i></a>
-                    <a href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag]" target="_blank"><i class="fa-brands fa-square-twitter fa-xl""></i></a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://dionisiogarcia.com " target="_blank "><i class="fa-brands fa-square-facebook fa-xl " ></i></a>
+                    <a href="https://twitter.com/intent/tweet?text=[text]&url=[url]&hashtags=[hashtag] " target="_blank "><i class="fa-brands fa-square-twitter fa-xl ""></i>
+                            </a>
                     <a href="https://api.whatsapp.com/send?text=escola%20inform%C3%A1tica%20i%20disseny%20https://dinisiogarcia.com" target="_blank"><i class="fa-brands fa-square-whatsapp fa-xl""></i></a>
                     <a href="https://www.linkedin.com/sharing/share-offsite/?url=dionisiogarcia.com target=" _blank "><i class="fa-brands fa-linkedin fa-xl "></i></a>
                    
@@ -176,8 +199,7 @@
         </div>
 
         <script src="/js/script.js "></script>
-        <script src="/js/formulario.js "></script>
-        <script src="/js/enlaces.js "></script>
+       
 
 </body>
 

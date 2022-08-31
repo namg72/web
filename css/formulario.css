@@ -19,7 +19,7 @@
     }
     
     form {
-        width: 80%;
+        width: 100%;
         display: inline-block;
     }
     
@@ -31,11 +31,12 @@
     }
     
     form textarea {
-        height: 10em;
-        width: 400px;
+        height: 15rem;
+        width: 100%;
         padding: 2%;
         overflow: hidden;
         color: black;
+        resize: none;
     }
     
     form input {
@@ -49,6 +50,11 @@
         height: 30px;
         font-size: 20px;
         border-radius: 2px;
+    }
+    
+    .button-active {
+        background-color: black;
+        color: yellow;
     }
     
     .form-ivalido {

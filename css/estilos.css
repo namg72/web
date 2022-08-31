@@ -20,9 +20,14 @@ header p {
     color: #333;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
 .menu {
     text-align: center;
-    
 }
 
 nav ul {
@@ -50,6 +55,13 @@ nav ul {
     background-color: white;
     color: #626567;
     transition: all 0.2s ease;
+}
+
+.menu li a:active {
+    color: white;
+    background-color: #333;
+    transition: all 0.2s ease;
+    border: 1px solid red;
 }
 
 .prod {
@@ -117,7 +129,7 @@ nav ul {
 }
 
 .videos div {
-    height: 300px;
+    height: 260px;
     width: 80%;
     padding: 10px;
     margin-top: 50px;
@@ -134,8 +146,8 @@ nav ul {
 .videos video {
     object-fit: cover;
     width: 100%;
-    height: 50%;
-    margin-bottom: 20px;
+    height: 70%;
+    margin-bottom: 10px;
 }
 
 .videos p {
@@ -200,7 +212,15 @@ nav ul {
     margin-left: auto;
     margin-right: auto;
     color: #333;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.productos h2 {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .catalogo {
@@ -221,4 +241,13 @@ nav ul {
     width: 90%;
     height: 2rem;
     margin-bottom: 15px;
+}
+
+.listaProductos label {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    left: 0px;
+    color: white;
 }
